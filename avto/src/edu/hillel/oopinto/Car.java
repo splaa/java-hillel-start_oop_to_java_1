@@ -1,12 +1,12 @@
 package edu.hillel.oopinto;
 
 public class Car {
-    String color;
-    String form;
-    double engineV;
-    double fuelConsumption; //расход на 100 км
-    String id;
-    double fuelInTank;  //остаток топлива
+    private String color;
+    private String form;
+    private double engineV;
+    private double fuelConsumption; //расход на 100 км
+    private String id;
+    private double fuelInTank;  //остаток топлива
     
     
     Car() {
