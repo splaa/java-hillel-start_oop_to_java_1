@@ -1,13 +1,20 @@
 public class Main {
+//	this is comment to main function(Простой коментарий)
+	/*
+		this is main function
+		where i write my code
+		(многострочный комментарий)
+	*/
 	public static void main(String[] args) {
 		System.out.println("Hello First project.");
 		System.out.println("Hello Java.");
-		int height;
+		
+		int height; //высота...
 		height = 180;
 		
-		int age = 35;
+		int age = 35;   //years
 		
-		float averageVelocity = (float) 125.6;
+		float averageVelocity = (float) 125.6; //km/h
 		double averageVelocityDouble = 125.6;
 		//целочисленные типы
 		byte b1 = 8;
