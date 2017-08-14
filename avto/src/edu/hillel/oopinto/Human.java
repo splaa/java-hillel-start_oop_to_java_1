@@ -1,3 +1,5 @@
+package edu.hillel.oopinto;
+
 public class Human {
 	String Name;
 	int salary;

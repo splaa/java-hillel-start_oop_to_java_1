@@ -1,3 +1,5 @@
+package edu.hillel.oopinto;
+
 public class MainClass {
 	public static void main(String[] args) {
 		Car myCar = new Car();
