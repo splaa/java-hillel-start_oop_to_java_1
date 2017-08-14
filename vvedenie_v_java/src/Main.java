@@ -6,6 +6,19 @@ public class Main {
 		(многострочный комментарий)
 	*/
 	public static void main(String[] args) {
+		
+		System.out.println("Возведение 2 в степень 5 = " + Math.pow(2, 5));
+		System.out.println("Возведение 2 в степень 5(int) = " + (int)Math.pow(2, 5));
+		
+		double a = 2, b = 3, c = 5;
+		double res1 = (Math.pow(a, 2)+Math.pow(b, 2))/(Math.pow(a, 2)-Math.pow(b, 2));
+		System.out.println("(a^2 + b^2)/(a^2 - b^2) = " + res1);
+		double res2 = Math.pow(a + b, 2)/(Math.pow(a, 2)-Math.pow(b, 2));
+		System.out.println("((a + b)^2)/(a^2 - b^2) = " + res2);
+		
+		double res3 = Math.abs(Math.cos(a) + 2 * Math.pow(Math.sin(b), 2));
+		System.out.println("|cos(x)^2 + 2*sin(x)^2| = " + res3);
+		
 		System.out.println("Hello First project.");
 		System.out.println("Hello Java.");
 		
