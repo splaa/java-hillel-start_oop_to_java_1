@@ -9,4 +9,9 @@ public class Doctor extends Employee{
 		mCategory = category;
 		
 	}
+	
+	@Override
+	public double getSalaryUah() {
+		return super.getSalaryUah() * 1.2;
+	}
 }
