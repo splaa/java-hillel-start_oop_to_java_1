@@ -1,19 +1,29 @@
 public class Main {
-//	this is comment to main function(Простой коментарий)
+	//	this is comment to main function(Простой коментарий)
 	/*
 		this is main function
 		where i write my code
 		(многострочный комментарий)
 	*/
 	public static void main(String[] args) {
+		VvJavaWhile vvJavaWhile = new VvJavaWhile();
+		double a1 = 10, b1 = 20, c1 = 0;
+		
+		if (c1 == 0) {
+			System.out.println("Error: Division by zero");
+		} else {
+			double res4 = (a1 + b1) - 1 / c1;
+			System.out.println("Результат = " + res4);
+		}
+		
 		
 		System.out.println("Возведение 2 в степень 5 = " + Math.pow(2, 5));
-		System.out.println("Возведение 2 в степень 5(int) = " + (int)Math.pow(2, 5));
+		System.out.println("Возведение 2 в степень 5(int) = " + (int) Math.pow(2, 5));
 		
 		double a = 2, b = 3, c = 5;
-		double res1 = (Math.pow(a, 2)+Math.pow(b, 2))/(Math.pow(a, 2)-Math.pow(b, 2));
+		double res1 = (Math.pow(a, 2) + Math.pow(b, 2)) / (Math.pow(a, 2) - Math.pow(b, 2));
 		System.out.println("(a^2 + b^2)/(a^2 - b^2) = " + res1);
-		double res2 = Math.pow(a + b, 2)/(Math.pow(a, 2)-Math.pow(b, 2));
+		double res2 = Math.pow(a + b, 2) / (Math.pow(a, 2) - Math.pow(b, 2));
 		System.out.println("((a + b)^2)/(a^2 - b^2) = " + res2);
 		
 		double res3 = Math.abs(Math.cos(a) + 2 * Math.pow(Math.sin(b), 2));
@@ -26,7 +36,7 @@ public class Main {
 		int number2 = 4223;
 		float res = number1 + number2;
 		System.out.println("res = " + res);
-		System.out.println("res(short) = " + (short)res);
+		System.out.println("res(short) = " + (short) res);
 		
 		
 		int height; //высота...
@@ -37,7 +47,7 @@ public class Main {
 		float averageVelocity = (float) 125.6; //km/h
 		double averageVelocityDouble = 125.6;
 		//целочисленные типы
-		byte b1 = 8;
+		byte b108 = 8;
 		short sh1 = 16;
 		int in1 = 32;
 		long lon1 = 64;
