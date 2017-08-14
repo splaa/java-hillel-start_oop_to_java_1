@@ -9,7 +9,7 @@ public class Car {
     private double fuelInTank;  //остаток топлива
     
     
-    Car() {
+    public Car() {
         fuelInTank = 0;
 	    id = "BB001";
     }
@@ -23,12 +23,29 @@ public class Car {
         this.fuelInTank = fuelInTank;
     }
     //заправить авто
-    void fillTank(int fuelV) {
+   public void fillTank(int fuelV) {
         fuelInTank = fuelInTank + fuelV;
     }
     
     //проехать растояние
-    void drive(double distance) {
+   public void drive(double distance) {
         fuelInTank = fuelInTank - distance / 100 * fuelConsumption;
     }
+	
+	public double getFuelInTank() {
+		return fuelInTank;
+	}
+	
+	public String getColor() {
+		return color;
+	}
+	
+	public void setColor(String color) {
+    	if (color.compareTo("red") != 0)
+		this.color = color;
+	}
+	
+	public void setFuelInTank(double fuelInTank) {
+		this.fuelInTank = fuelInTank;
+	}
 }
