@@ -9,6 +9,13 @@ public class Main {
 		System.out.println("Hello First project.");
 		System.out.println("Hello Java.");
 		
+		int number1 = 135;
+		int number2 = 4223;
+		float res = number1 + number2;
+		System.out.println("res = " + res);
+		System.out.println("res(short) = " + (short)res);
+		
+		
 		int height; //высота...
 		height = 180;
 		
